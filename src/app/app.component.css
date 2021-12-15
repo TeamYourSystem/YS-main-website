@@ -1,20 +1,36 @@
-.row-team p {
-  margin-bottom: 0;
-}
-
-.member-name {
-  font-weight: bolder;
-}
-
+/* General CSS */
 hr {
   margin-bottom: 2%;
 }
 
 footer {
-  position: fixed;
+  position: absolute;
+  margin-top: auto;
+  padding-top: 3%;
   left: 0;
-  bottom: 0;
   width: 100%;
-  /* Height of the footer*/
-  height: 40px;
+}
+
+h3 {
+  margin-top: 5%;
+}
+
+/* Converged CSS */
+.row p {
+  margin-bottom: 0;
+}
+
+/* Team CSS */
+.row-team {
+  margin-top: 2%;
+}
+
+.row-team img {
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 3%;
+}
+
+.member-name {
+  font-weight: bolder;
 }
